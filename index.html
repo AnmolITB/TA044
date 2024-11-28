@@ -7,13 +7,11 @@
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <script>
-        // JavaScript para manejar el menú mòbil
         function toggleMenu() {
             const nav = document.querySelector('.nav');
             nav.classList.toggle('active');
         }
 
-        // Bolita que persigue al cursor
         document.addEventListener('DOMContentLoaded', () => {
             const cursor = document.createElement('div');
             cursor.classList.add('cursor-follow');
