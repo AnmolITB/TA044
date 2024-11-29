@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="../CSS/listado.css">
+    </head>
+    <body>
+        <header>
+            <img src="../Imagenes/logo.png" alt="Logo">
+            <h1>Anmolpreet Singh Kaur</h1>
+            <div class="menu-toggle" id="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <nav id="navbar">
+                <a href="./pagina1.html" target="_blank">Pagina 1</a>
+                <a href="./pagina2.html" target="_blank">Pagina 2</a>
+                <a href="./portafolios.html" target="_blank">Portafolios</a>
+            </nav>
+        </header> 
+        <main>
+            <div class="container">
+                <section class="section-1">
+                    <h2 id="galeria-titulo">Galería de Proyectos</h2>
+                </section>
+                
+                <section class="section-2">
+                    <p class="proyectos-lista">Proyecto 1</p>
+                    <div class="button-container">
+                        <a href="pagina1.html" class="button" id="button1">Exposició sobre el branding i la creació duna marca</a>
+                    </div>
+                    <p class="proyectos-lista">Proyecto 2</p>
+                    <div class="button-container">
+                        <a href="pagina2.html" class="button" id="button2">Creació d'una marca de roba</a>
+                    </div>
+                </section>
+
+                <section class="formulario-seccion">
+                    <h3>Contáctame</h3>
+                    <form action="#" method="POST">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required placeholder="Introduce tu correo electrónico">
+
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Introduce tu nombre">
+
+                        <label for="apellidos">Apellidos:</label>
+                        <input type="text" id="apellidos" name="apellidos" required placeholder="Introduce tus apellidos">
+
+                        <label for="mensaje">Cuerpo del mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" required placeholder="Escribe tu mensaje aquí"></textarea>
+
+                        <button type="submit">Enviar</button>
+                    </form>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <p>Todos los derechos reservados. 2024</p>
+            <p>LinkedIn: 
+        </footer>
+
+        <script src="../scripts.js"></script>
+    </body>
+</html>
